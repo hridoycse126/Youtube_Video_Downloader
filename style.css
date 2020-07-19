@@ -1,0 +1,41 @@
+* {
+    transition: all 0.3s;
+}
+#btn_fetch {
+    height: 4rem;
+    width: 15rem;
+    margin-left: -7rem;
+}
+
+#txt_url {
+    height: 4rem;
+    /* width: 15rem;
+    margin-left: -7rem; */
+}
+
+#txt_url:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 575px) {
+    #btn_fetch {
+        margin-top: 1rem;
+        width: 50% !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #btn_fetch {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+}
+
+.dwl-btn {
+    background: url('icons/download.svg');
+    background-size: contain;
+    background-position: center;
+    height: 2rem;
+    background-repeat: no-repeat;
+}
